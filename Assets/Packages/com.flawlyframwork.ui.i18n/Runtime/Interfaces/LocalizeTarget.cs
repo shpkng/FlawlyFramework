@@ -1,10 +1,9 @@
-﻿using System;
-
-namespace FF.I18N
+﻿namespace FF.I18N
 {
+    using System;
+
     [Serializable]
     public struct LocalizeTarget
     {
-        
     }
 }

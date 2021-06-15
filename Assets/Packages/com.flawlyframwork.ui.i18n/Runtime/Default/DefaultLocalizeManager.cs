@@ -1,19 +1,23 @@
-﻿using System.Collections.Generic;
-
-namespace FF.I18N
+﻿namespace FF.I18N
 {
-    public static class LocalizationManager
+    using Collections;
+    public class DefaultLocalizeManager : ILocalizeManager
     {
-        private static int defaultCollectionSize = 128;
-        private static List<ILocalizable> _localizables;
+        private static DefaultLocalizeManager _instance;
+
+        public ILocalizeManager instance => _instance ??= new DefaultLocalizeManager();
+
+        private const int defaultCollectionSize = 128;
+        private static SwapList<ILocalizer> _localizables;
+
         public static void Init()
         {
-            _localizables = new List<ILocalizable>(defaultCollectionSize);
+            _localizables = new SwapList<ILocalizer>(defaultCollectionSize);
         }
 
         public static void Init(ICustomLoader customLoader)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public static void Release()

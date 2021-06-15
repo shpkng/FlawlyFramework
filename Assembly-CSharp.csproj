@@ -648,17 +648,20 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Packages" />
     <Folder Include="Assets\Packages\com.flawlyframwork.ui.i18n\Documentation" />
     <Folder Include="Assets\Packages\com.flawlyframwork.ui.i18n\Editor" />
     <Folder Include="Assets\Packages\com.flawlyframwork.ui.i18n\Tests\Editor" />
     <Folder Include="Assets\Packages\com.flawlyframwork.ui.i18n\Tests\Runtime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Packages\com.flawlyframework.collections\SwapList.cs" />
+    <Compile Include="Assets\Packages\com.flawlyframework.utils\Singleton.cs" />
+    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Default\DefaultLoader.cs" />
+    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Default\DefaultLocalizeManager.cs" />
     <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Interfaces\ICustomLoader.cs" />
-    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Interfaces\ILocalizable.cs" />
+    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Interfaces\ILocalizer.cs" />
+    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Interfaces\ILocalizeManager.cs" />
     <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Interfaces\LocalizeTarget.cs" />
-    <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\LocalizationManager.cs" />
     <Compile Include="Assets\Packages\com.flawlyframwork.ui.i18n\Runtime\Localizer.cs" />
   </ItemGroup>
   <ItemGroup>
