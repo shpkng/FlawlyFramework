@@ -1,0 +1,16 @@
+{
+  "name": "com.flawlyframework.ui",
+  "version": "0.0.1",
+  "displayName": "FF UI",
+  "description": "UI for FlawlyFramework.",
+  "unity": "2017.1",
+  "unityRelease": "",
+  "dependencies": {},
+  "keywords": [
+    "ui"
+  ],
+  "author": {
+    "name": "shpkng",
+    "email": "shpkng@gmail.com"
+  }
+}
