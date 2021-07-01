@@ -6,9 +6,9 @@
   "unity": "2017.1",
   "unityRelease": "",
   "dependencies": {
-    "com.flawlyframework.ui": "https://github.com/shpkng/FlawlyFramework.git#UI@0.0.1",
-    "com.flawlyframework.collections": "https://github.com/shpkng/FlawlyFramework.git#Collections@0.0.1",
-    "com.flawlyframework.utils": "https://github.com/shpkng/FlawlyFramework.git#Utils@.0.1"
+    "com.flawlyframework.ui": "https://github.com/shpkng/FlawlyFramework.git#0a49c62220035c96252b34fef7307efe8ce18c6b",
+    "com.flawlyframework.collections": "https://github.com/shpkng/FlawlyFramework.git#8f5fed4e7cb428a33328a803d32c0f7e2b50f342",
+    "com.flawlyframework.utils": "https://github.com/shpkng/FlawlyFramework.git#fb2356c84001108501aef3f68628cf92c42a68c5"
   },
   "keywords": [],
   "author": {
