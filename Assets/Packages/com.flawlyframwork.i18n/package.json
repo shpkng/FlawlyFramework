@@ -1,5 +1,5 @@
 {
-  "name": "com.flawlyframework.ui.i18n",
+  "name": "com.flawlyframework.i18n",
   "version": "0.0.1",
   "displayName": "FF I18N",
   "description": "Internationalization support for FlawlyFramework.",

@@ -1,0 +1,16 @@
+{
+  "name": "com.flawlyframework.collections",
+  "version": "0.0.1",
+  "displayName": "FF Collections",
+  "description": "Collections for FlawlyFramework.",
+  "unity": "2017.1",
+  "unityRelease": "",
+  "dependencies": {},
+  "keywords": [
+    "collections"
+  ],
+  "author": {
+    "name": "shpkng",
+    "email": "shpkng@gmail.com"
+  }
+}

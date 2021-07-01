@@ -1,0 +1,16 @@
+{
+    "name": "FlawlyFramework.I18N.Runtime",
+    "rootNamespace": "FF",
+    "references": [
+        "GUID:6558d9f28d68e4b20ad26d145352ca69"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

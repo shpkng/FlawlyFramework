@@ -1,0 +1,16 @@
+{
+  "name": "com.flawlyframework.utils",
+  "version": "0.0.1",
+  "displayName": "FF Utils",
+  "description": "Utils for FlawlyFramework.",
+  "unity": "2017.1",
+  "unityRelease": "",
+  "dependencies": {},
+  "keywords": [
+    "utils"
+  ],
+  "author": {
+    "name": "shpkng",
+    "email": "shpkng@gmail.com"
+  }
+}

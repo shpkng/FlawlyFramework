@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{41f68974-1901-31af-984b-27ea83289714}</ProjectGuid>
+    <ProjectGuid>{3647822a-1e1b-d5a1-51ed-26e3af1bfafd}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -41,10 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <None Include="Assets\Packages\com.flawlyframework.collections\package.json" />
-     <None Include="Assets\Packages\com.flawlyframework.utils\package.json" />
-     <None Include="Assets\Packages\com.flawlyframework.ui\package.json" />
-     <None Include="Assets\Packages\com.flawlyframwork.i18n\package.json" />
+     <None Include="Assets\Plugins\UniTask\package.json" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

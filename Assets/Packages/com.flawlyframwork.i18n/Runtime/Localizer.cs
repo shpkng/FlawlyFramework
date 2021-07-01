@@ -22,6 +22,11 @@ namespace FF.I18N
         {
         }
 
+        public void ForceLocalize(string languageOrCode)
+        {
+            throw new NotImplementedException();
+        }
+
         public void ForceLocalize(PlayerSettings.Switch.Languages languages)
         {
             throw new NotImplementedException();
