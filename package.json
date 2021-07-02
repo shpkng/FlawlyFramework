@@ -1,6 +1,6 @@
 {
   "name": "com.flawlyframework.utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "FF Utils",
   "description": "Utils for FlawlyFramework.",
   "unity": "2017.1",
