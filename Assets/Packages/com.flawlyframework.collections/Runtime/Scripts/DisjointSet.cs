@@ -1,6 +1,8 @@
 // Author: wuchenyang(shpkng@gmail.com)
 
-public class DisjointSet
+namespace FF.Collections
 {
-    
+    public class DisjointSet
+    {
+    }
 }

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlawlyFramework.Collections.Runtime", "FlawlyFramework.Collections.Runtime.csproj", "{ebac2469-e93d-5626-d4fa-a708a3707281}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlawlyFramework.Utils", "FlawlyFramework.Utils.csproj", "{530c52dd-c712-dda5-f6c3-c6fae23e0a92}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlawlyFramework.UI.Runtime", "FlawlyFramework.UI.Runtime.csproj", "{70077fe9-7b1b-ec15-8b5c-0bf3983ae1f4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlawlyFramework.I18N.Runtime", "FlawlyFramework.I18N.Runtime.csproj", "{70b00bf8-e657-1712-5cf3-c827e8606929}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlawlyFramework.Utils", "FlawlyFramework.Utils.csproj", "{530c52dd-c712-dda5-f6c3-c6fae23e0a92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{41f68974-1901-31af-984b-27ea83289714}"
 EndProject
@@ -18,12 +18,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ebac2469-e93d-5626-d4fa-a708a3707281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ebac2469-e93d-5626-d4fa-a708a3707281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530c52dd-c712-dda5-f6c3-c6fae23e0a92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530c52dd-c712-dda5-f6c3-c6fae23e0a92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70077fe9-7b1b-ec15-8b5c-0bf3983ae1f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{70077fe9-7b1b-ec15-8b5c-0bf3983ae1f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70b00bf8-e657-1712-5cf3-c827e8606929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{70b00bf8-e657-1712-5cf3-c827e8606929}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{530c52dd-c712-dda5-f6c3-c6fae23e0a92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{530c52dd-c712-dda5-f6c3-c6fae23e0a92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41f68974-1901-31af-984b-27ea83289714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{41f68974-1901-31af-984b-27ea83289714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

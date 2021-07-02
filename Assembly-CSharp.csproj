@@ -43,16 +43,17 @@
   <ItemGroup>
      <None Include="Assets\Packages\com.flawlyframework.collections\package.json" />
      <None Include="Assets\Packages\com.flawlyframework.utils\package.json" />
+     <None Include="Assets\Packages\com.flawlyframework\package.json" />
      <None Include="Assets\Packages\com.flawlyframework.ui\package.json" />
      <None Include="Assets\Packages\com.flawlyframwork.i18n\package.json" />
      <Reference Include="UnityEngine">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>D:/UnityEditors/2021.1.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:/UnityEditors/2021.1.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.1.7f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>D:/UnityEditors/2021.1.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

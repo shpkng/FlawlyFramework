@@ -1,10 +1,9 @@
 ﻿// Author: wuchenyang(shpkng@gmail.com)
 
+using System.Collections.Generic;
 
 namespace FF.Collections
 {
-    using System.Collections.Generic;
-
     public class SwapList<T> : List<T>
     {
         public SwapList(int defaultCollectionSize) : base(defaultCollectionSize)

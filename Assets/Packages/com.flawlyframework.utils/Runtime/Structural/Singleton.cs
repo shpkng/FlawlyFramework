@@ -1,7 +1,7 @@
-﻿namespace FF.Utils
-{
-    using UnityEngine;
+﻿using UnityEngine;
 
+namespace FF.Utils
+{
     public abstract class Singleton<T> : MonoBehaviour where T : Component
     {
         #region Fields

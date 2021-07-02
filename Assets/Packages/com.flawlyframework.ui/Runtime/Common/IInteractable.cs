@@ -1,7 +1,10 @@
 // Author: wuchenyang(shpkng@gmail.com)
 
-public interface IInteractable
+namespace FF.UI
 {
-    bool interactable { get; }
-    void OnInteractabilityChange(bool toBeInteractable);
+    public interface IInteractable
+    {
+        bool interactable { get; }
+        void OnInteractabilityChange(bool toBeInteractable);
+    }
 }
