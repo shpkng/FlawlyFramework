@@ -8,11 +8,7 @@ namespace FF.Utils
     {
         #region Ugly Extesion Methods
 
-        public static DateTime GetDateTime(
-#if FF_FULL || FF_PRIMITIVE_EXTENSIONS || FF_TIME_EXTENSIONS
-            this
-#endif
-                long timestamp) => utcOrigin + TimeSpan.FromSeconds(timestamp);
+        public static DateTime ToDateTime(this long timestamp) => GetDateTime(timestamp);
 
         #endregion
 
@@ -20,12 +16,9 @@ namespace FF.Utils
         public static long timestampNow => GetTimestamp(DateTime.Now);
 
         public static long GetTimestamp(DateTime dateTime) => (long) (dateTime - utcOrigin).TotalSeconds;
+        
+        public static DateTime GetDateTime(long timestamp) => utcOrigin + TimeSpan.FromSeconds(timestamp);
         public static long GetSecondsFromDue(long dueTime) => dueTime - timestampNow;
         public static TimeSpan GetTimeSpanFromDue(long dueTime) => TimeSpan.FromSeconds(GetSecondsFromDue(dueTime));
-
-        public static void Test()
-        {
-            var e = GetDateTime(0);
-        }
     }
 }

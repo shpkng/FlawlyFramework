@@ -1,7 +1,9 @@
 {
     "name": "FlawlyFramework.Utils",
     "rootNamespace": "FF",
-    "references": [],
+    "references": [
+        "GUID:6558d9f28d68e4b20ad26d145352ca69"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
