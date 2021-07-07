@@ -6,6 +6,10 @@ namespace FF.Collections
 {
     public class SwapList<T> : List<T>
     {
+        public SwapList() : base()
+        {
+        }
+
         public SwapList(int defaultCollectionSize) : base(defaultCollectionSize)
         {
         }
@@ -17,14 +21,14 @@ namespace FF.Collections
         public new void RemoveAt(int index)
         {
             Swap(index, Count - 1);
-            RemoveAt(this.Count - 1);
+            base.RemoveAt(this.Count - 1);
         }
 
         public void Swap(int a, int b)
         {
             var temp = this[a];
             this[a] = this[b];
-            this[b] = this[a];
+            this[b] = temp;
         }
     }
 }
