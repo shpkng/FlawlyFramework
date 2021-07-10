@@ -5,7 +5,7 @@ using FF.Collections;
 
 namespace FF.Utils
 {
-    public class Timer : Singleton<Timer>
+    public class Timer : MonoSingleton<Timer>
     {
         private SwapList<Tuple<float, float, Action>> eventTuples = new SwapList<Tuple<float, float, Action>>(64);
 
