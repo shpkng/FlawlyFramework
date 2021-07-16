@@ -60,13 +60,10 @@ namespace FF.Collections
             return token;
         }
 
-        public void Remove(int token)
+        public bool Remove(int token)
         {
             if (!tokenToIndex.ContainsKey(token))
-            {
-                int i = 2;
-            }
-
+                return false;
             int aIndex = tokenToIndex[token], bIndex = _list.Count - 1;
             int bToken = indexToToken[bIndex];
             var temp = _list[bIndex];
@@ -79,6 +76,7 @@ namespace FF.Collections
             tokenToIndex.Remove(token);
             _list.RemoveAt(_list.Count - 1);
             recycledIndex.Enqueue(token);
+            return true;
         }
     }
 }
