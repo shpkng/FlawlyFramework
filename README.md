@@ -19,3 +19,10 @@ FF is a Framework，请递归之。
 
 ## 安装
 在Unity Package Manager中以Git方式导入，我想应该不用我教。
+
+---
+    FF = Full of Fun
+            && Fast Forward
+            && Free and Flexible
+            && Fool Friendly
+            && Fcking Fancy
